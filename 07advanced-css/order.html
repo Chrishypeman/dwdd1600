@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Chris Cruz">
+    <meta name="description" content="Learn about the History of Instruments">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+   
+   <link rel="icon" type="image/x-icon" href="favicon.ico">
+   
+    <link rel="stylesheet" href="insturments.css">
+    <title>History of Instruments: Early times of instruments</title>
+</head>
+
+<body>
+    <!--Start the page head -->
+    <header>
+        <img src="Images/logo.png" alt="Logo for the Instrument web" width="86" height="75">
+        <span>The Beginning of Instruments</span>
+    </header>
+
+    <!--start the page navigation -->
+    <nav>
+        <ul>
+            <li><a href="index.html">History of Instruments</a></li>
+            <li><a href="modern.html">Modern Times</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li class="active"><a href="order.html">Order</a></li>
+        </ul>
+
+    </nav>
+    <!--start the main content -->
+    <main>
+        <h1>Instruments Delivery</h1>
+        <form method="get" class="alamos" action="thanks.html">
+        
+        <fieldset>
+        <legend>Customer Information</legend>
+        <label>First Name*<input type="text" name="fname" required></label>
+        <label>Last Name*<input type="text" name="lname" required></label>
+        <label>Phone Number*<input type="tel" name="phone" required></label>
+        </fieldset>
+       
+        <fieldset>
+        <legend>Delivery Distribution</legend>
+            <label><input type="radio" name="way" value="Pickup">Pickup (9 Minutes to Prepare)</label>
+       
+            <label><input type="radio" name="way" value="Drone"> Drone Delivery (30-45 minutes)</label>
+
+            <label><input type="radio" name="way" value="Car"> Car Pickup (15-30 minutes)</label>
+
+            <label><input type="radio" name="way" value="Car"> Car Delivery (15-45 minutes)</label>
+
+        </fieldset>
+
+         <fieldset>
+         <legend>Distrubution</legend>
+            <label><input type="checkbox" name="front door" value="chosen"> Front Door</label>
+
+            <label><input type="checkbox" name="garage" value="chosen"> Garage</label>
+
+            <label><input type="checkbox" name="driveway" value="chosen"> Driveway</label>
+
+            <label><input type="checkbox" name="mailbox" value="chosen"> Mailbox</label>
+
+            <label>Delivery Times
+            <select name="time">
+            <option value="none">Please Select</option>
+            <option value="morning">Between 8:00am and 12:00pm</option>
+            <option value="afternoon">Between 12:00pm and 4:00pm</option>
+            <option value="evening">Between 4:00pm and 7:00pm</option>
+            </select>
+            </label>
+            </fieldset>
+
+
+
+
+
+
+       
+            <input type="submit" value="Distribution Request">
+            </form>
+        </main>
+
+    <!--start the page footer-->
+    <footer>
+        <p>&copy; 2026 &bull; Chris Cruz &bull; Web Development</p>
+    </footer>
+
+</body>
+
+</html>
